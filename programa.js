@@ -15,7 +15,7 @@ class Teclado{
         }
     }
 
-    crearBoton(letra){
+    crearBoton(letra, contenedor){
 
         //TO DO crear el boton
         console.log(letra);
@@ -31,8 +31,7 @@ class Teclado{
              }
              );
 
-        contenedor.appendChild(btn);
-        
+        contenedor.appendChild(btn);     
 
     }
 
